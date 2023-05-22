@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Google Sans, Roboto, sans-serif;
+}
+
+body {
+  background-color: #f9fbfd;
+  padding-top: 120px;
+}
+
+.container {
+  /* padding-top: 15px; */
+}
+
+.container .ql-container {
+  width: 8.5in;
+  min-height: 11in;
+  margin: 10px auto;
+  border: 1px #d3d3d3 solid;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.ql-editor.ql-blank::before {
+  top: 0.5in !important;
+  left: 0.5in !important;
+}
+
+.container .ql-editor {
+  width: 100%;
+  min-height: 100%;
+  padding: 0.5in !important;
+}
+
+.ql-font span[data-value="arial"]::before,
+.ql-font span[data-label="arial"]::before {
+  font-family: "Arial";
+}
+.ql-font span[data-value="impact"]::before,
+.ql-font span[data-label="Impact"]::before {
+  font-family: "Impact";
+}
+.ql-font span[data-value="courier"]::before,
+.ql-font span[data-label="Courier"]::before {
+  font-family: "Courier";
+}
+.ql-font span[data-value="comic"]::before,
+.ql-font span[data-label="Comic Sans MS"]::before {
+  font-family: "Comic Sans MS";
+}
+
+.ql-font span[data-value="monospace"]::before,
+.ql-font span[data-label="MonoSpace"]::before {
+  font-family: "MonoSpace";
+}
+
+.ql-font-arial {
+  font-family: "Arial";
+}
+.ql-font-impact {
+  font-family: "Impact";
+}
+.ql-font-courier {
+  font-family: "Courier";
+}
+.ql-font-comic {
+  font-family: "Comic Sans MS";
+}
+.ql-font-monospace {
+  font-family: "Monospace";
+}
+
+@media screen and (max-width: 1155px) {
+  body {
+    padding-top: 150px;
+  }
+}

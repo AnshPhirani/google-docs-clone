@@ -1,0 +1,109 @@
+.header {
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  height: 65px;
+  width: 100%;
+  padding: 6px 12px 4px 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9fbfd;
+}
+
+.header::before {
+  content: url(https://www.gstatic.com/images/branding/product/1x/docs_2020q4_36dp.png);
+  transform: scale(1.05);
+  position: absolute;
+  top: 18px;
+  left: 10px;
+}
+
+.header__left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.doc__name {
+  font-size: 20px;
+  font-weight: 350;
+  color: #000;
+  width: 172px;
+  height: 26px;
+  margin: -2px;
+  padding: 3px 2px 0px 2px;
+  margin-left: 8px;
+  border: none;
+}
+
+.doc__name:hover {
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.doc__name:focus {
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid #1a73e8;
+}
+
+.docs__menubar {
+  margin-left: 2px;
+}
+
+.docs__menubar .docs__menuitem {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  margin: 0 6px;
+  color: #202124;
+  padding: 2px 1.5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.docs__menubar .docs__menuitem:hover {
+  background-color: #e8ebee;
+}
+
+.header__right {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__right .share__button {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 20px;
+  background-color: #c2e7ff;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.header__right .share__button:hover {
+  cursor: pointer;
+  background-color: #b2d7ef;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.header__right .google__image {
+  border-radius: 50%;
+  border: 1px solid transparent;
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.header__right .google__image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
