@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/google-docs-clone/static/css/main.defc2123.css",
+    "main.js": "/google-docs-clone/static/js/main.e7a11770.js",
+    "index.html": "/google-docs-clone/index.html",
+    "main.defc2123.css.map": "/google-docs-clone/static/css/main.defc2123.css.map",
+    "main.e7a11770.js.map": "/google-docs-clone/static/js/main.e7a11770.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.defc2123.css",
+    "static/js/main.e7a11770.js"
+  ]
+}
