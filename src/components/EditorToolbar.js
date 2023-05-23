@@ -53,9 +53,7 @@ const EditorToolbar = () => {
       </span>
       <span className="ql-formats">
         <select className="ql-font " defaultValue="arial">
-          <option selected value="arial">
-            Arial
-          </option>
+          <option value="arial">Arial</option>
           <option value="impact">Impact</option>
           <option value="courier">Courier</option>
           <option value="comic">Comic</option>
